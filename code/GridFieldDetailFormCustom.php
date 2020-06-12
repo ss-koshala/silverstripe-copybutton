@@ -1,4 +1,7 @@
 <?php
+namespace CopyButton;
+
+use SilverStripe\Forms\GridField\GridFieldDetailForm;
 
 class GridFieldDetailFormCustom extends GridFieldDetailForm
 {

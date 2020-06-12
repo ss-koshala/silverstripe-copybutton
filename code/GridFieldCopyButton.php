@@ -8,6 +8,14 @@
  * @author Elvinas Liutkevičius <elvinas@unisolutions.eu>
  * @license BSD http://silverstripe.org/BSD-license
  */
+namespace CopyButton;
+
+use SilverStripe\Forms\GridField\GridField;
+use SilverStripe\Forms\GridField\GridField_ActionProvider;
+use SilverStripe\Forms\GridField\GridField_ColumnProvider;
+use SilverStripe\Forms\GridField\GridField_FormAction;
+use SilverStripe\ORM\ValidationException;
+
 class GridFieldCopyButton implements GridField_ColumnProvider, GridField_ActionProvider
 {
 

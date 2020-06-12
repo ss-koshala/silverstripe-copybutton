@@ -1,6 +1,6 @@
 {
 	"name": "unisolutions/silverstripe-copybutton",
-	"type": "silverstripe-module",
+	"type": "silverstripe-vendormodule",
 	"description": "Adds copy button to the GridField.",
 	"keywords": ["silverstripe", "copy", "button"],
 	"authors": [{
@@ -8,7 +8,7 @@
 		"email": "elvinas@unisolutions.eu"
 	}],
 	"require": {
-		"silverstripe/framework": "3.*"
+		"silverstripe/framework": "~4.0"
 	},
 	"minimum-stability": "dev",
 	"extra": {
