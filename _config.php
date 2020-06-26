@@ -5,5 +5,5 @@ use SilverStripe\Admin\LeftAndMain;
 Config::modify()->set(
     LeftAndMain::class,
     'extra_requirements_css',
-    array(basename(dirname(__FILE__)) . '/css/GridFieldCopyButton.css')
+    array('/_resources/vendor/unisolutions/silverstripe-copybutton/css/GridFieldCopyButton.css')
 );
